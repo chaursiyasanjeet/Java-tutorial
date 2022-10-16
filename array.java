@@ -1,9 +1,12 @@
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class array {
     public static void main(String[] args) {
         // ARRAYS
-        int[] marks = new int[3];
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int[] marks = new int[n];
         marks[0] = 98;
         marks[1] = 89;
         marks[2] = 78;
