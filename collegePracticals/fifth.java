@@ -14,9 +14,9 @@ public class fifth {
                     System.out.println("Numer is even");
                 } else {
                     System.out.println("Number is odd");
-                
+                }
 
-            // checking number is prime or not
+                // checking number is prime or not
             case 2:
                 boolean isPrime = true;
                 if (num < 2 & num >= 0) {
