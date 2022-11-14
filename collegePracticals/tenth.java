@@ -13,7 +13,11 @@ public class tenth {
             arr[i] = sc.nextInt();
         }
         // sorting array
-
+        Arrays.sort(arr);
+        // printing the array
+        for (int i = 0; i < n; i++) {
+            System.out.print5(arr[i] + " ");
+        }
     }
 
 }
