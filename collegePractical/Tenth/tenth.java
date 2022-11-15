@@ -9,14 +9,18 @@ public class tenth {
         int arr[] = new int[n];
 
         // taking input in arrray
+        System.out.println("Enter the numbers:-");
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
+
+        System.out.println();
         // sorting array
         Arrays.sort(arr);
         // printing the array
+        System.out.println("After sorting:-");
         for (int i = 0; i < n; i++) {
-            System.out.print5(arr[i] + " ");
+            System.out.print(+arr[i] + " ");
         }
     }
 

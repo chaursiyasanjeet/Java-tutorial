@@ -19,6 +19,7 @@ public class second {
 
         System.out.println("Enter the number");
         int num = sc.nextInt();
+        System.out.println();
         System.out.println("Square of the number is:" + square(num));
         System.out.println("Cube of the number is:" + cube(num));
     }

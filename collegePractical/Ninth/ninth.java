@@ -14,6 +14,7 @@ public class ninth {
             arr[i] = sc.nextInt();
         }
 
+        System.out.println();
         // sum of Arrays
         double sum = 0;
         for (int i = 0; i < n; i++) {

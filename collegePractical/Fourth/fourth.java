@@ -12,6 +12,7 @@ public class fourth {
         System.out.println("Enter the Third number: ");
         int num3 = sc.nextInt();
 
+        System.out.println();
         // maximum of three using if else
         if (num1 == num2 && num2 == num3) {
             System.out.println("Numbers are equal.");

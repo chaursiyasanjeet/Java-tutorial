@@ -9,6 +9,7 @@ public class seventh {
 
         int a = 0, b = 1;
         int ans = 0;
+        System.out.println();
         System.out.println("Fibonnaci Series is:");
         if (n < 3) {
             System.out.println(+a);

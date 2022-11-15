@@ -6,6 +6,7 @@ public class sixth {
         System.out.println("Enter the number:");
         int num = sc.nextInt();
 
+        System.out.println();
         switch (1) {
             // sum of digits of number.
             case 1:

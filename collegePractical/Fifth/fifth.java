@@ -6,6 +6,7 @@ public class fifth {
         System.out.println("Enter the number:");
         int num = sc.nextInt();
 
+        System.out.println();
         switch (1) {
 
             // checking number is even or odd
