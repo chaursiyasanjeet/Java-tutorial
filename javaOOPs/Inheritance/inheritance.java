@@ -1,4 +1,4 @@
-import bank;
+import bank.*;
 
 class Shape {
     public void area() {
