@@ -14,6 +14,7 @@ public class fourth {
 
         System.out.println();
         // maximum of three using if else
+        System.out.println("Maximum of the number using if-else:");
         if (num1 == num2 && num2 == num3) {
             System.out.println("Numbers are equal.");
         } else if (num1 > num2 && num1 > num3) {

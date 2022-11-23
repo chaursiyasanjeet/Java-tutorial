@@ -1,33 +1,75 @@
-import java.util.Scanner;
-
 class Person {
-    Scanner sc = new Scanner(System.in);
+    String Name;
+    String Address;
 
-    Person() {
-        System.out.println("Enter the Person name:");
-        String name = sc.nextLine();
+    Person(String name, String add) {
+        Name = name;
+        Address = add;
+    }
 
+    void display() {
+        System.out.println("Name:" + Name);
+        System.out.println("Address:" + Address);
     }
 }
 
 class Teacher extends Person {
-    Teacher(Person P1) {
-        this.name = P1.name;
+    String Department;
+    String officeAdd;
+
+    Teacher(String name, String add, String dept, String offadd) {
+        super(name, add);
+        Department = dept;
+        officeAdd = offadd;
     }
+
+    void display() {
+        System.out.println("Name of the teacher:" + Name);
+        System.out.println("Address of the teacher:" + Address);
+        System.out.println("Department of the teacher:" + Department);
+        System.out.println("Office address of the teacher:" + officeAdd);
+    }
+
 }
 
 class Student extends Person {
+    String Course;
+    int RollNo;
 
+    Student(String name, String add, String course, int rn) {
+        super(name, add);
+        Course = course;
+        RollNo = rn;
+    }
+
+    void display() {
+        System.out.println("Name of the Student:" + Name);
+        System.out.println("Address of the Student:" + Address);
+        System.out.println("Course of the Student:" + Course);
+        System.out.println("RollNo. of the Student:" + RollNo);
+    }
 }
 
 public class sixteenth {
     public static void main(String[] args) {
-        Person P1 = new Person();
-        Person P2 = new Person();
-        Person P3 = new Person();
-        Person P4 = new Person();
+        Person P1 = new Person("Sanjeet", "Laxmi Nagar");
+        Teacher T1 = new Teacher("Amar", "Shahdara", "Arts", "south delhi");
+        Student S1 = new Student("Vishnu", "Sarojni Nagr", "Geography", 48);
 
-        Teacher T1 = new Teacher(P1);
+        Person P;
+        P = P1;
+        System.out.println("Inside the person class");
+        P.display();
+        System.out.println();
+
+        P = T1;
+        System.out.println("Inside the teacher class");
+        P.display();
+        System.out.println();
+
+        P = S1;
+        System.out.println("Inside the Student class");
+        P.display();
 
     }
 }

@@ -15,6 +15,7 @@ public class fourteenth {
         double traingleArea = Math.sqrt(s * (s - a) * (s - b) * (s - c));
         System.out.println(
                 "Area of triangle with length of sides  " + a + "," + b + " and " + c + " is : " + traingleArea);
+    }
 
     public static void main(String[] args) {
         area(5);
