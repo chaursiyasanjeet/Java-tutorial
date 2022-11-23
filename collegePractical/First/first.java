@@ -25,7 +25,7 @@ public class first {
         } else {
             diff = num2 - num1;
         }
-        System.out.println();
+
         System.out.println("Sum is:" + sum);
         System.out.println("Difference is:" + diff);
         System.out.println("Product is:" + multiply);

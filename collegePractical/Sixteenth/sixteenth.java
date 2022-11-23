@@ -52,9 +52,9 @@ class Student extends Person {
 
 public class sixteenth {
     public static void main(String[] args) {
-        Person P1 = new Person("Sanjeet", "Laxmi Nagar");
-        Teacher T1 = new Teacher("Amar", "Shahdara", "Arts", "south delhi");
-        Student S1 = new Student("Vishnu", "Sarojni Nagr", "Geography", 48);
+        Person P1 = new Person("Sanjeet", "Nirman Vihar");
+        Teacher T1 = new Teacher("Rajeev", "Laxmi Nagar", "Math", "Shahdara");
+        Student S1 = new Student("Rajan", "Janakpuri", "Computer Science", 28);
 
         Person P;
         P = P1;
